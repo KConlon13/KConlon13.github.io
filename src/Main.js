@@ -15,7 +15,7 @@ class Main extends React.Component {
     .then(data => this.setState({weatherLocation: data.location, weatherCurrent: data.current, weatherForecast: data.forecast }))
   }
 
-  // Working as temporary component
+  // Working as temporary component here
   
   
   render(){
